@@ -1,12 +1,16 @@
 # VSCode TS Intellisense Bug
 
-<!-- ⚠️⚠️ Do Not Delete This! feature_request_template ⚠️⚠️ -->
-
+<!-- ⚠️⚠️ Do Not Delete This! bug_report_template ⚠️⚠️ -->
 <!-- Please read our Rules of Conduct: https://opensource.microsoft.com/codeofconduct/ -->
+<!-- 🕮 Read our guide about submitting issues: https://github.com/microsoft/vscode/wiki/Submitting-Bugs-and-Suggestions -->
+<!-- 🔎 Search existing issues to avoid creating duplicates. -->
+<!-- 🧪 Test using the latest Insiders build to see if your issue has already been fixed: https://code.visualstudio.com/insiders/ -->
+<!-- 💡 Instead of creating your report here, use 'Report Issue' from the 'Help' menu in VS Code to pre-fill useful information. -->
+<!-- 🔧 Launch with `code --disable-extensions` to check. -->
+Does this issue occur when all extensions are disabled?: Yes/No
 
-<!-- Please search existing issues to avoid creating duplicates. -->
-
-<!-- Describe the feature you'd like. -->
+<!-- 🪓 If you answered No above, use 'Help: Start Extension Bisect' from Command Palette to try to identify the cause. -->
+<!-- 📣 Issues caused by an extension need to be reported directly to the extension publisher. The 'Help > Report Issue' dialog can assist with this. -->
 
 # Description
 When I import a class/interface/type when using the JS/TS intellisense, the logo will not appear as expected.
@@ -14,8 +18,8 @@ It's not a fatal error, but it's annoying to me.
 
 # Enviroment
 
-- Version of VS Code: 1.90.1
-- Operating System: Windows 10
+- VS Code Version: 1.90.1
+- OS Version: Windows 10
 - Extensions: @builtin JS/TS support
 
 # Reproduction
