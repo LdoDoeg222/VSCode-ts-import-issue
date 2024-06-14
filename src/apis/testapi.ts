@@ -1,4 +1,4 @@
-import axios, { AxiosResponse } from "axios"
+import axios from "axios"
 import { Res } from "../types/Res"
 
 // import axios from "axios";
@@ -15,10 +15,9 @@ axios({
   url,
   params,
   method: 'GET'
-}).then((resp:AxiosResponse<Res>)=>{
+}).then((resp: AxiosResponse<Res>)=>{
   if(resp.status === 200){
     return resp
   }
   throw new Error("Error")
 })
-
