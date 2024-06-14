@@ -1,19 +1,8 @@
-import axios from "axios"
-import { Res } from "../types/Res"
-
-// import axios from "axios";
-const url = "https://www.searchapi.io/api/v1/search"
-
-const params = {
-  "engine": "google_news",
-  "q": "Jeff Bezos news",
-  "location": "New York,United States",
-  "api_key": "DnTiZCkJrK2HhK19rXUpGepj"
-}
+import axios, { AxiosResponse } from "axios"
+import { Res } from "@/types/Res"
 
 axios({
-  url,
-  params,
+  url: "http://127.0.0.1:8090",
   method: 'GET'
 }).then((resp: AxiosResponse<Res>)=>{
   if(resp.status === 200){

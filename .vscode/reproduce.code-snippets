@@ -18,9 +18,18 @@
 		"scope": "javascript,typescript",
 		"prefix": "test2",
 		"body": [
-			"import { Res } from '/src/types/Res.d.ts",
+			"import { Res } from '@/types/Res'",
 			"const testObj: Re${1:/* Type 's' here */} {$0}",
 		],
 		"description": "Test2"
+	},
+	"Test3": {
+		"scope": "javascript,typescript",
+		"prefix": "test2",
+		"body": [
+			"import Res from '@/types/Res'",
+			"const testObj: Re${1:/* Type 's' here */} {$0}",
+		],
+		"description": "Test3"
 	},
 }
