@@ -16,6 +16,9 @@ axios({
   params,
   method: 'GET'
 }).then((resp:AxiosResponse<Res>)=>{
-
+  if(resp.status === 200){
+    return resp
+  }
+  throw new Error("Error")
 })
 
